@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Matteo Bruni">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>Register Template - tsParticles</title>
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="form.css">
+    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+    async defer></script>
+</head>
+
+<body>
+    <main class="box">
+        <h2>Register</h2>
+        <form>
+            <div class="inputBox">
+                <label for="userName">Name</label>
+                <input type="text" name="Name" id="Name" placeholder="type your name" required />
+            </div>
+            <div class="inputBox">
+                <label for="userName">E-mail</label>
+                <input type="text" name="Name" id="Name" placeholder="type your email" required />
+            </div>
+            <div class="inputBox">
+                <label for="userConfirmPhone">Phone</label>
+                <input type="phone" name="userphone" id="userConfirmPhone" placeholder="confirm your number" required />
+            </div>
+            <div class="inputBox">
+                <label for="userConfirmNumber">Father's Number</label>
+                <input type="number" name="usernumber" id="userConfirmnumber"
+                    placeholder="confirm your father's number " required />
+            </div>
+            <div class="hello">Gender</div>
+            <div class="input inputBox">
+                <div class="inputA">
+                    <input type="radio" name="inlineRadioOptions" id="femaleGender" value="option1" /> 
+                    <label for="femaleGender">Female</label>
+                </div>
+                <div class="inputA inputBox">
+                    
+                    <input type="radio" name="inlineRadioOptions" id="maleGender" value="option2" />
+                    <label for="maleGender">Male</label>
+                </div>
+                <div class="inputA inputBox">
+                    
+                    <input type="radio" name="inlineRadioOptions" id="Other" value="option2" />
+                    <label for="other">Other</label>
+                </div>
+            </div>
+            <div class="g-recaptcha" data-sitekey="6LcnpCQoAAAAAEmN8rgeCElpO_CUlUfv8cqBZKFi"></div>
+            <br>
+            <div class="inputBox">
+                <label for="userPassword">Password</label>
+                <input type="password" name="userPassword" id="userPassword" placeholder="type your password"
+                    required />
+            </div>
+
+            <button type="submit" name="" style="float: left;">Submit</button>
+            <a class="button" href="login page.html" style="float: left;">Login</a>
+        </form>
+    </main>
+    <footer>
+    </footer>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/tsparticles@1.34.1/tsparticles.min.js"
+        integrity="sha256-D6LXCdCl4meErhc25yXnxIFUtwR96gPo+GtLYv89VZo=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/particles.js"></script> -->
+</body>
+
+</html>

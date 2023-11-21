@@ -1,0 +1,157 @@
+section {
+  /* border: 1px solid black; */
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0%;
+  margin: 0%;
+}
+header {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid gray;
+  justify-content: space-around;
+}
+.akemploymain {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.akampoy1 {
+  height: 100px;
+  width: auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-align: center;
+}
+.akamploy2 p {
+  height: auto;
+  width: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+}
+.akamploy2 i {
+  height: 50%;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  font-size: 30px;
+  color: black;
+}
+.akemploy5 {
+  height: auto;
+  width: auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-align: center;
+}
+.akampoly3 input {
+  border-radius: 10px;
+}
+.akgenderempoly {
+  border-radius: 10px;
+}
+.akampoy1 :hover {
+  margin-top: -1%;
+}
+.akemployin {
+  width: 50%;
+  height: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.akemployimgandin {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.akemployimg {
+  flex-wrap: wrap;
+  flex-direction: row;
+  height: 200px;
+  width: 200px;
+}
+.akinformaionemploy {
+  width: 889px;
+  height: 200px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+.akemployimg img {
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+}
+.akroominpl {
+  flex-wrap: wrap;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-evenly;
+}
+.akroominpl i {
+  font-size: 20px;
+}
+.akratingcall {
+  border: 1px solid black;
+  flex-wrap: wrap;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.akemployin :hover {
+  cursor: pointer;
+  margin-top: 1%;
+}
+.c1 {
+  display: flex;
+  gap: 2rem;
+}
+.c13 {
+  display: flex;
+  gap: 3rem;
+}
+.r2 {
+  margin: 10px;
+}
+.ci {
+  display: flex;
+  gap: 0.1rem;
+}
+.Same p {
+  font-size: 15px;
+  color: gray;
+}
+.r1 {
+  padding-top: 10px;
+}
+.container {
+  margin-top: 60px;
+}
+

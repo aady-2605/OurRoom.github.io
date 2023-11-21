@@ -1,0 +1,129 @@
+.ro-all{
+    display: flex;
+    padding-bottom: 64px;
+    padding-top: 100px;
+}
+.ro-container1{
+padding-left: 460px;
+padding-right: 100px;
+padding-top: 200px;
+font-size: 20px;
+}
+.ro-container1 h1{
+    font-size: 35px;
+    
+}
+.ro-container1 h2{
+    font-size: 65px;
+    
+}
+/* @media(max-width:1305px)
+{ 
+    
+    .ro-container1{
+        padding: 193px 14px 0px 136px;
+       }
+    .ro-all{
+        padding-top: 30px;
+        padding-right: 88px;
+    }
+    .ro-container1 h2{
+        font-size: 50px;
+    }
+} */
+@media(max-width:1280px)
+{ 
+    
+    .ro-container1{
+        padding: 193px 14px 0px 268px;
+       }
+    }
+    
+@media(max-width:1350px){
+    .ro-container1 {
+         padding-left: 225px;
+       
+      }
+}
+@media(max-width:1024px)
+{ 
+    
+    .ro-container1{
+        padding: 193px 14px 0px 143px;
+       }
+    }
+@media(max-width:768px)
+{ 
+    
+    .ro-container2{
+        padding-top: 70px;
+       }
+    }
+@media(max-width:820px){
+    .ro-container1{
+        padding: 180px 14px 0px 100px;
+       }
+    .ro-container2 img{
+        height: 100% ;
+        width: 100%;
+    }
+}
+@media(max-width:912px){
+    .ro-container1{
+        padding: 170px 14px 0px 120px;
+       }
+       .ro-container2 img{
+        height: 100% ;
+        width: 100%;
+    }
+}
+@media(max-width:540px){
+    .ro-all{
+        flex-direction: column;
+        padding-right: 50px;
+    padding-left: 50px;
+    }
+    .ro-container1 {
+        padding: 65px 33px 0px 55px;
+    }
+
+       .ro-container2 img{
+        height: 100% ;
+        width: 100%;
+    }
+}
+
+@media(max-width:414px){
+    .ro-container1 {
+        padding: 65px 0px 0px 13px;
+    }
+    .ro-container1 h1{
+        font-size: 28px;
+    }
+    .ro-container1 h2{
+        font-size: 50px;
+    }
+}
+@media(max-width:375px){
+    .ro-container1 h1{
+        font-size: 28px;
+    }
+    .ro-container1 h2{
+        font-size: 50px;
+    }
+}
+@media(max-width:280px){
+    .ro-container1 h2 {
+        font-size: 34px;
+    }
+    .ro-container1 h1{
+        font-size: 14px;
+    }
+    .ro-container1 {
+        padding: 38px 9px 0px 25px;
+    }
+    .ro-container2{
+        padding-top: 0px;
+    }
+ 
+}

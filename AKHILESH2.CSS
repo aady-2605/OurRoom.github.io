@@ -1,0 +1,88 @@
+.akmain
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #FCF6F5FF;
+    height: 400px;
+
+
+}
+.akcollege
+{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    display: inline;
+    
+}
+.akcolleges
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    height: 00px;
+    align-items: center;
+}
+.akhead
+{
+    height: 100px;
+    align-items: center;
+    font-size: 38px;
+    font-family: sans-serif;
+    color: black;
+}
+span
+{
+    color: #2BAE66ff;
+}
+.ak button a 
+{
+    font-size: 30px;
+    text-decoration: none;
+    color:#2BAE66ff;
+    text-align: center;
+
+}
+.ak button{
+    background-color: #FCF6F5FF;
+    border:2px solid#2BAE66ff ;
+    border-radius: 10px;
+    font-family: serif;
+    text-align: center;
+  
+    
+}
+
+.ak
+{
+    text-align: center;
+}
+.akcollege p
+{
+    color: #2BAE66ff;
+    font-family: sans-serif;
+}
+.akcollege img
+{
+    border-radius: 20px;
+}
+.akcollege:hover
+{
+    margin-top: -30px;
+}
+.ak  :hover
+{
+    background-color:#2BAE66ff ;
+    color:#FCF6F5FF ;
+    background-color: cover;
+
+}
+.akcollegesS
+{
+    display: flex;
+    flex-direction: row;
+}
